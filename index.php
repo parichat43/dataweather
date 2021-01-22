@@ -85,7 +85,7 @@
  <script> 
    function loadweather(){ 
      $(".searchdata").hide();
-     var url ="http://api.openweathermap.org/data/2.5/weather?lat=8.769789&lon=99.864247&appid=33786f69fe3e7bf115d7613f30438546&units=metric";
+     var url ="https://api.openweathermap.org/data/2.5/weather?lat=8.795540&lon=99.843698&appid=e8916dd91122d70a0b9527ebfefc1ccc&units=metric";
      
            $.get(url)
             .done((data)=>{
