@@ -115,7 +115,7 @@
            var a = $("#la").val();
            var b = $("#long").val();
 
-           url = url + "/data/2.5/weather?lat=" + a + "&lon=" + b +"&appid=33786f69fe3e7bf115d7613f30438546&units=metric"; 
+           url = url + "/data/2.5/weather?lat=" + a + "&lon=" + b +"&appid=e8916dd91122d70a0b9527ebfefc1ccc&units=metric"; 
            
             $.getJSON(url)
             .done((data)=>{
